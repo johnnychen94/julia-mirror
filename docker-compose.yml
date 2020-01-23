@@ -1,0 +1,19 @@
+version: '2'
+services:
+  julia-s3mirror:
+    image: johnnychen94/jill-mirror
+    environment:
+      # sync releases everyday
+      - PERIOD=86400
+      # uncomment this to download from nearest mirrors
+      # by default it will download from Official server
+      # - UPSTREAM=None
+    volumes:
+      # download path
+      - ${PWD}/julia_pkg:/julia_pkg
+      # log path
+      - ${PWD}/logs:/root/logs
+      # uncomment this if you want to register an internal upstream mirror
+      # - ${PWD}/sources.json:/root/.config/jill/sources.json
+      # uncomment this if you have custom mirror configs
+      # - ${PWD}/mirror.json:/root/mirror.json

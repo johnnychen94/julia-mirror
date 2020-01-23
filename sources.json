@@ -1,0 +1,13 @@
+{
+    "upstream": {
+        "LFLab": {
+            "name": "LFLab, ECNU Math",
+            "urls": [
+                "http://mirrors.lflab.cn/julia/releases/$vminor_version/$filename"
+            ],
+            "latest_urls": [
+                "http://mirrors.lflab.cn/julia/releases/$vminor_version/$filename"
+            ]
+        }
+    }
+}
