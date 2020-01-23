@@ -1,7 +1,7 @@
 version: '2'
 services:
   julia-s3mirror:
-    image: johnnychen94/jill-mirror
+    image: johnnychen94/julia-mirror
     environment:
       # sync releases everyday
       - PERIOD=86400
