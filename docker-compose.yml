@@ -1,6 +1,7 @@
 version: '2'
 services:
   julia-s3mirror:
+    container_name: julia-mirror
     image: johnnychen94/julia-mirror
     restart: always
     environment:
