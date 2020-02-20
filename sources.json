@@ -6,7 +6,7 @@
                 "http://mirrors.lflab.cn/julia/releases/$vminor_version/$filename"
             ],
             "latest_urls": [
-                "http://mirrors.lflab.cn/julia/releases/$vminor_version/$filename"
+                "http://mirrors.lflab.cn/julia/releases/$vminor_version/$latest_filename"
             ]
         }
     }

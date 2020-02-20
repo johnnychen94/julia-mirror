@@ -11,5 +11,5 @@ up the mirror for Julia releases. The core package of this image is [jill.py](ht
 ## Usage
 
 1. clone this repository: `git clone https://github.com/johnnychen94/julia-mirror.git`
-2. modify `docker-compose.yml`
+2. modify `docker-compose.yml` and `mirror.json` as you like
 3. start mirroring `docker-compose up -d`
